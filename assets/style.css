@@ -36,10 +36,15 @@ p {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
-    box-shadow: 5px 10px #888888; /* Put in blur effect for box shadow */
+    box-shadow: 5px 10px #888888; 
 }
 
-/* Have each card class blow up after hovering over them */
+.card:hover {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid blue;
+    box-shadow: 5px 10px blue; 
+}
 
 .indent {
     margin-left: 2em;
