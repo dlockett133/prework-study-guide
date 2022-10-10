@@ -40,3 +40,7 @@ p {
 }
 
 /* Have each card class blow up after hovering over them */
+
+.indent {
+    margin-left: 2em;
+}

@@ -14,6 +14,7 @@
         src="./assets/bowtie-cat.png"
         alt="Profile image of cat wearing a bow tie."
       />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -110,6 +111,10 @@
             allows users to interact with websites.
           </li>
           <li>
+            Control flow is the order in which a computer executes code in a
+            script.
+          </li>
+          <li>
             The reason the "script" element is placed near the bottom of the
             HTML file is that the browser reads code in the order it appears in
             the file.
@@ -122,6 +127,7 @@
               </li>
             </ul>
           </li>
+          <li>Each line of JavaScript code ends with a semicolon ;</li>
           <li>
             Variables are containers that store values. You start by declaring a
             variable with the "let" keyword, followed by the name you give to
@@ -132,8 +138,8 @@
             <ul>
               <li>
                 Strings:This is a sequence of text known as a string. To signify
-                that the value is a string, enclose it in single quote marks.
-                Ex: let myVariable = 'Bob';
+                that the value is a string, enclose it in double or single quote
+                marks. Ex: let myVariable = "Bob";
               </li>
               <li>
                 Number: This is a number. Numbers don't have quotes around them.
@@ -160,6 +166,13 @@
             Conditionals are code structures used to test if an expression
             returns true or not. A very common form of conditionals is the
             "if,else, and else if"
+            <ul>
+              <li>
+                The strict equality operator (===) checks to see if two values
+                are equal, and returns a Boolean result true if the values are
+                equal and false if the values are not equal.
+              </li>
+            </ul>
           </li>
           <li>
             Functions are a way of packaging functionality that you wish to
@@ -179,7 +192,70 @@
             call an "arrow function". An "arrow function" uses () => instead of
             function ():
           </li>
-          <li>`const` means that the identifier can't be reassigned</li>
+          <li>`const`: means that the identifier can't be reassigned</li>
+          <li>
+            The modulus operator (%) returns the remainder of an integer
+            division
+          </li>
+          <li>
+            Array: a built-in global object that allows you to store multiple
+            elements at once.
+            <ul>
+              <li>
+                Index: the location of the data item in the array. This location
+                is identified with a unique number.
+              </li>
+              <li>
+                Arrays are zero-indexed and sequential. This means that the
+                first item in any array has an index of 0, not 1.
+              </li>
+              <li>
+                To access a specific index in an array, you would start by
+                typing the name of the array, followed by the index in square
+                brackets. Ex: Array[1]
+              </li>
+              <li>
+                Length: We can find the length of an array by using a built-in
+                property of an array, appropriately named length. Ex:
+                array.length
+              </li>
+            </ul>
+          </li>
+          <li>
+            For loop: A for loop uses the predictable pattern of indices to
+            perform a task on all the items in an array by allowing a single
+            code block to be executed over and over.
+            <ul>
+              <li>
+                A for loop contains the following three important statements:
+              </li>
+              <ol class="indent">
+                <li>
+                  The first statement determines the starting point for our
+                  loop.
+                </li>
+                <li>
+                  The second statement is the condition. As long as the number
+                  in the variable x is less than the length of the array, the
+                  loop will keep running.
+                </li>
+                <li>
+                  The final statement is what allows the array to iterate over
+                  each item. Often this increments the value of the initial
+                  variable. This is not always the case. JavaScript doesn't
+                  care. This is optional.
+                </li>
+              </ol>
+            </ul>
+          </li>
+          <li>
+            Function: is simply a set of instructions that tells the computer
+            how to perform a certain task.
+          </li>
+          <li>
+            In order for the code inside a function to run, we need to call the
+            function.
+          </li>
         </ul>
       </section>
     </main>
@@ -187,5 +263,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="/assets/script.js"></script>
   </body>
 </html>
