@@ -1,12 +1,16 @@
 let topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+
+// Returns a random index [0-3] from from our topics' array 
 let randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
+// Lists the names of each topic
 function listTopics() {
     for (let i=0; i<topics.length; i++) {
         console.log(topics[i]);
     }
 }
 
+// Selects a topic randomly from our topics' array
 function selectTopic () {
     if (randomTopic === 'HTML') {
         console.log("Let's study HTML!");
@@ -27,4 +31,3 @@ listTopics();
 console.log('Which topic should we study first?');
 selectTopic();
 
-//fixing git pull
